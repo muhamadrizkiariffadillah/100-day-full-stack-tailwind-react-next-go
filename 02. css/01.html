@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Selector, property and box model</title>
+    <style>
+      body {
+        font-family: "Courier New", Courier, monospace;
+        background: black;
+        color: white;
+        margin: 0;
+        padding: 0;
+      }
+
+      h1 {
+        color: yellow;
+        text-align: center;
+      }
+
+      p {
+        font-size: 24px;
+        color: red;
+      }
+
+      .container {
+        width: 80%;
+        background: green;
+        margin: 20px auto;
+        padding: 20px;
+        border-radius: 5px;
+        border: 2px;
+        box-shadow: 2px 2px 10px (rgba(200, 500, 10, 0.1));
+      }
+
+      #highlight {
+        background: white;
+        width: 50%;
+        font-weight: bold;
+      }
+
+      .btn {
+        padding: 10px;
+        border-radius: 5px;
+        color: white;
+        background-color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Learning css</h1>
+      <p id="highlight">ID Selector</p>
+      <p>and this is not</p>
+      <button class="btn">Click here</button>
+    </div>
+  </body>
+</html>

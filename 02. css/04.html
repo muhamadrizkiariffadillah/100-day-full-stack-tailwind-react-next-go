@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animation and transition</title>
+    <style>
+      .box {
+        width: 100px;
+        height: 100px;
+        align-items: center;
+        justify-content: center;
+        background: blanchedalmond;
+        font-size: 20px;
+        font-weight: bold;
+        transition: background-color 0.5 ease, transform 0.5 ease;
+      }
+      .box:hover {
+        background-color: red;
+        transform: scale(1.5);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">Hover!</div>
+  </body>
+</html>
