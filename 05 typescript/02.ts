@@ -1,7 +1,5 @@
 // Union type
 
-import { get } from "http";
-
 let data: string | number;
 
 data = "Hello";

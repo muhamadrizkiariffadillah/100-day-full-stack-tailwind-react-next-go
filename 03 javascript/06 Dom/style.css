@@ -1,0 +1,22 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: whitesmoke;
+}
+
+button {
+  margin: 5px;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  margin-top: 10px;
+}
+
+.highlight {
+  background: yellow;
+}
